@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Curso Backend PHP - SENAI-DF</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@400;700&display=swap');
+
+  body {
+    margin: 0;
+    background: #1e1e2f;
+    color: #cfd8dc;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  header h1 {
+    font-family: 'Fira Code', monospace;
+    font-size: 3rem;
+    color: #6cc24a;
+    letter-spacing: 0.15em;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  header p {
+    font-size: 1.25rem;
+    color: #90caf9;
+    margin-top: 0.25rem;
+    font-weight: 500;
+  }
+
+  .php-logo {
+    width: 120px;
+    margin: 1rem auto;
+    animation: float 3s ease-in-out infinite;
+  }
+
+  main {
+    max-width: 600px;
+    background: #263238dd;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #6cc24aaa;
+    backdrop-filter: blur(8px);
+    animation: fadeIn 1.5s ease forwards;
+  }
+
+  main h2 {
+    color: #81d4fa;
+    margin-bottom: 1rem;
+    font-family: 'Fira Code', monospace;
+  }
+
+  main p {
+    line-height: 1.6;
+    color: #cfd8dccc;
+  }
+
+  code {
+    font-family: 'Fira Code', monospace;
+    background: #455a64cc;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    color: #aed581;
+    font-weight: 600;
+  }
+
+  footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #607d8b;
+  }
+
+  /* Animações */
+
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 5px #6cc24a, 0 0 10px #6cc24a;
+      color: #6cc24a;
+    }
+    100% {
+      text-shadow: 0 0 20px #a3d977, 0 0 30px #a3d977;
+      color: #a3d977;
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+      filter: drop-shadow(0 0 5px #6cc24a);
+    }
+    50% {
+      transform: translateY(-15px);
+      filter: drop-shadow(0 0 15px #a3d977);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BACKEND PHP</h1>
+  <p>SENAI-DF - Taguatinga Sul | Início: 11/09/2025</p>
+  <img class="php-logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="Logo PHP" />
+</header>
+
+<main>
+  <h2>Bem-vindo ao curso presencial de Backend com PHP</h2>
+  <p>Ministrado pelo Professor <strong>Vitor Santos</strong>, este curso irá guiá-lo através dos fundamentos do desenvolvimento backend com PHP, construindo uma base sólida para criar aplicações web robustas, seguras e eficientes.</p>
+  <p>Prepare-se para explorar:</p>
+  <ul>
+    <li>Estrutura clássica do PHP</li>
+    <li>Programação orientada a objetos</li>
+    <li>Integração com bancos de dados MySQL</li>
+    <li>Boas práticas e padrões modernos</li>
+  </ul>
+</main>
+
+<footer>
+  &copy; 2025 SENAI-DF - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
+
