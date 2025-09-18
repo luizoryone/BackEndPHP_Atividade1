@@ -85,5 +85,3 @@ echo "Bem-vindo ao curso de Backend com PHP no SENAI!";
 ```
 
 ---
-
-Se quiser, posso adaptar isso para português informal, incluir QR Code para materiais, ou deixá-lo mais minimalista. Deseja algo assim?
